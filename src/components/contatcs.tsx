@@ -3,8 +3,8 @@ import TitleSection from "./ui/title-section";
 
 const Contacts = () => {
     return (
-        <div className="h-screen relative bg-cover bg-center bg-fixed bg-[url(Background_Contacts.png)] flex flex-col items-center">
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 flex flex-col items-center justify-center">
+        <div className="bg-cover bg-center bg-fixed bg-[url(Background_Contacts.png)] flex flex-col items-center">
+            <div className="my-8 z-10 flex flex-col items-center justify-center">
                 <TitleSection
                     title={"Contato"}
                     subtitle={"Gostou do meu trabalho?"}
