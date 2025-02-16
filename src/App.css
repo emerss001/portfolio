@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Inconsolata";
+    src: url("/public/fonts/Inconsolata.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Asap";
+    src: url("/public/fonts/Asap.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MavenPro";
+    src: url("/public/fonts/MavenPro.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@theme {
+    --font-Inconsolata: "Inconsolata", sans-serif;
+    --font-Asap: "Asap", sans-serif;
+    --font-MavenPro: "MavenPro", sans-serif;
+}
+
+:root {
+    --background-color: #16181d;
+}
+body {
+    background-color: var(--background-color);
+}
