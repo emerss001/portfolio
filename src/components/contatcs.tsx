@@ -3,7 +3,7 @@ import TitleSection from "./ui/title-section";
 
 const Contacts = () => {
     return (
-        <div className="bg-cover bg-center bg-fixed px-2 bg-[url(Background_Contacts.png)] flex flex-col items-center">
+        <div className="bg-cover bg-center bg-fixed px-10 bg-[url(Background_Contacts.png)] flex flex-col items-center">
             <div className="my-8 z-10 flex flex-col items-center justify-center">
                 <TitleSection
                     title={"Contato"}
@@ -11,7 +11,7 @@ const Contacts = () => {
                     description={"Entre em contato ou acompanhe as minhas redes sociais!"}
                 />
 
-                <div className="flex flex-col gap-4">
+                <div className="flex w-full flex-col gap-4">
                     <LinkContacts
                         title={"Linkedin"}
                         icon={"LinkedinLogo.svg"}
