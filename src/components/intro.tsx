@@ -17,7 +17,7 @@ const Intro = () => {
                         resultados.
                     </p>
                 </div>
-                <div className="flex flex-wrap items-center justify-center gap-3 w-[80%] my-8">
+                <div className="flex flex-wrap items-center justify-center gap-3 w-[80%] mt-8 mb-10">
                     <Stack name={"React"} icon={"React.svg"} />
                     <Stack name={"Node.js"} icon={"Nodejs.svg"} />
                     <Stack name={"Java"} icon={"Java.svg"} />
@@ -26,7 +26,7 @@ const Intro = () => {
                     {/* <Stack name={"Nest.js"} icon={"Nestjs.svg"} /> */}
                 </div>
 
-                <img src="/icons/CaretDoubleDown.svg" width={24} />
+                <img src="/icons/CaretDoubleDown.svg" width={30} className="animate-bounce big:mt-10" />
             </div>
         </div>
         // </div>
