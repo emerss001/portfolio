@@ -6,7 +6,7 @@ const Projects = () => {
         <div className="relative items-center flex flex-col justify-center">
             <TitleSection title={"Meu Trabalho"} subtitle={"Veja os projetos em destaque"} />
 
-            <div className="grid grid-cols-1 gap-4">
+            <div className="grid grid-cols-1 gap-4 big:grid-cols-2 lg:grid-cols-3">
                 <CardProject
                     title={"Barber Top"}
                     description={"Plataforma de agendamento de serviços de barbearia."}

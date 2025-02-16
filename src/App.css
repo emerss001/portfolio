@@ -25,6 +25,12 @@
     --font-Inconsolata: "Inconsolata", sans-serif;
     --font-Asap: "Asap", sans-serif;
     --font-MavenPro: "MavenPro", sans-serif;
+    --breakpoint-scroll: 360px;
+    --breakpoint-2scroll: 400px;
+    --breakpoint-3scroll: 560px;
+
+    --breakpoint-big: 750px;
+    --breakpoint-fim-scroll: 835px;
 }
 
 :root {
