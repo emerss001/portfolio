@@ -2,7 +2,7 @@ import Stack from "./ui/stack";
 
 const Intro = () => {
     return (
-        <div className="mb-8 mt-8 relative flex justify-center elative bg-cover bg-center bg-fixed bg-[url(Background_Intro.png)] big:h-screen">
+        <div className="mb-8 mt-8 relative flex justify-center elative bg-cover bg-center bg-fixed bg-[url(/Background_Intro.png)] big:h-screen">
             {/* <div className="h-screen relative bg-cover bg-center bg-fixed  items-center justify-center flex flex-col"> */}
             <div className="z-10 flex flex-col items-center justify-center">
                 <img src="Avatar.png" className="h-20 w-20 2xl:w-24 2xl:h-24" />
