@@ -23,7 +23,8 @@ const Intro = () => {
                     <Stack name={"Java"} icon={"Java.svg"} />
                     <Stack name={"Next.js"} icon={"Nextjs.svg"} />
                     <Stack name={"Docker"} icon={"Docker.svg"} />
-                    {/* <Stack name={"Nest.js"} icon={"Nestjs.svg"} /> */}
+                    <Stack name={"Nest.js"} icon={"Nestjs.svg"} />
+                    <Stack name={"Tailwindcss"} icon={"Tailwind.svg"} />
                 </div>
 
                 <img src="/icons/CaretDoubleDown.svg" width={30} className="animate-bounce big:mt-10" />
