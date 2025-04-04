@@ -27,7 +27,19 @@ const Intro = () => {
                     <Stack name={"Tailwindcss"} icon={"Tailwind.svg"} />
                 </div>
 
-                <img src="/icons/CaretDoubleDown.svg" width={30} className="animate-bounce big:mt-10" />
+                <img
+                    src="/icons/CaretDoubleDown.svg"
+                    width={30}
+                    className="animate-bounce big:mt-10 cursor-pointer"
+                    onClick={() => {
+                        if (window.innerWidth >= 835) {
+                            window.scrollTo({
+                                top: window.innerHeight,
+                                behavior: "smooth",
+                            });
+                        }
+                    }}
+                />
             </div>
         </div>
         // </div>
