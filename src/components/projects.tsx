@@ -11,21 +11,33 @@ const Projects = () => {
                     title={"Barber Top"}
                     description={"Plataforma de agendamento de serviços de barbearia."}
                     imageSrc={"BarberTop.png"}
-                    urlDestination={"https://github.com/emerss001/barber-top"}
+                    projectDaddle={{
+                        gitHubUrl: "https://github.com/emerss001/barber-top",
+                        siteUrl: "https://barber-top-eight.vercel.app/",
+                        ok: true,
+                    }}
                 />
 
                 <CardProject
                     title={"FSW Foods"}
                     description={"Aplicativo de delivery de comida inspirado no iFood."}
                     imageSrc={"FSWFoods.png"}
-                    urlDestination={"https://github.com/emerss001/fws-foods"}
+                    projectDaddle={{
+                        gitHubUrl: "https://github.com/emerss001/fws-foods",
+                        siteUrl: "https://fws-foods.vercel.app/",
+                        ok: true,
+                    }}
                 />
 
                 <CardProject
                     title={"In.Orbit"}
                     description={"Plataforma desktop para registro de metas com progresso semanal."}
                     imageSrc={"inOrbit.png"}
-                    urlDestination={"https://github.com/emerss001/In.Orbit"}
+                    projectDaddle={{
+                        gitHubUrl: "https://github.com/emerss001/In.Orbit",
+                        siteUrl: "https://in-orbit-iota.vercel.app/",
+                        ok: true,
+                    }}
                 />
 
                 <CardProject
@@ -34,21 +46,33 @@ const Projects = () => {
                         "Aplicativo para controle financeiro com plano de assinatura e inteligência artificial."
                     }
                     imageSrc={"ExpensesAi.png"}
-                    urlDestination={"https://github.com/emerss001/expenses-aI"}
+                    projectDaddle={{
+                        gitHubUrl: "https://github.com/emerss001/expenses-aI",
+                        siteUrl: "",
+                        ok: false,
+                    }}
                 />
 
                 <CardProject
                     title={"Plann.er"}
                     description={"App para montar planos de viagem com amigos, registrar atividades e links úteis."}
                     imageSrc={"Planner.png"}
-                    urlDestination={"https://github.com/emerss001/Plann.er"}
+                    projectDaddle={{
+                        gitHubUrl: "https://github.com/emerss001/Plann.er",
+                        siteUrl: "",
+                        ok: false,
+                    }}
                 />
 
                 <CardProject
                     title={"LobãoCare"}
                     description={"Website para um petshop com sistema de agendamento e loja virtual."}
                     imageSrc={"Lobao.png"}
-                    urlDestination={"https://github.com/emerss001/LobaoCare"}
+                    projectDaddle={{
+                        gitHubUrl: "https://github.com/emerss001/LobaoCare",
+                        siteUrl: "http://lobaocare.shop/",
+                        ok: true,
+                    }}
                 />
             </div>
         </div>
