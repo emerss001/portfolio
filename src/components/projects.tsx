@@ -74,6 +74,19 @@ const Projects = () => {
                         ok: true,
                     }}
                 />
+
+                <CardProject
+                    title={"Acervo Inclusivo"}
+                    description={
+                        "Plataforma de catalogação de materiais com acessibilidade para pessoas com deficiência."
+                    }
+                    imageSrc={"acervo.png"}
+                    projectDaddle={{
+                        gitHubUrl: "https://github.com/emerss001/api-bibliotech",
+                        siteUrl: "https://bibliotech-indol.vercel.app/",
+                        ok: true,
+                    }}
+                />
             </div>
         </div>
     );
