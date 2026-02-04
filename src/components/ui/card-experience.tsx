@@ -20,7 +20,7 @@ export function CardExperience({
     stacks,
 }: CardExperienceProps) {
     return (
-        <div className="flex flex-col gap-2 rounded-lg bg-zinc-800 p-4 md:flex-row md:gap-10 md:p-10 shadow-lg border border-zinc-700/50">
+        <div className="max-w-7xl w-full flex flex-col gap-2 rounded-lg bg-zinc-800 p-4 md:flex-row md:gap-10 md:p-10 shadow-lg border border-zinc-700/50">
             <div className="flex flex-col gap-1 md:w-1/4 flex-shrink-0">
                 <span className="text-xs font-medium uppercase tracking-wider text-zinc-400">{date}</span>
                 <span className="text-sm font-medium tracking-wider text-zinc-400">{locale}</span>

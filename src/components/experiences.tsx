@@ -3,7 +3,7 @@ import TitleSection from "./ui/title-section";
 
 export function Experiences() {
     return (
-        <div className="flex h-full flex-col items-center justify-center mb-10 px-10 md:px-20">
+        <div className="flex h-full flex-col mb-10 px-6 md:px-20">
             <TitleSection title="Experiências" subtitle="Projetos que me desafiaram e me fizeram crescer" />
 
             <div className="flex flex-col">
