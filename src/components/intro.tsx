@@ -22,6 +22,7 @@ const Intro = () => {
                     <Stack name={"Node.js"} icon={"Nodejs.svg"} />
                     <Stack name={"Java"} icon={"Java.svg"} />
                     <Stack name={"Next.js"} icon={"Nextjs.svg"} />
+                    <Stack name={"Flutter"} icon={"Flutter.svg"} />
                     <Stack name={"Docker"} icon={"Docker.svg"} />
                     <Stack name={"Nest.js"} icon={"Nestjs.svg"} />
                     <Stack name={"Tailwindcss"} icon={"Tailwind.svg"} />
