@@ -1,5 +1,6 @@
 import "./App.css";
 import Contacts from "./components/contatcs";
+import { Education } from "./components/education";
 import { Experiences } from "./components/experiences";
 import Intro from "./components/intro";
 import Projects from "./components/projects";
@@ -10,6 +11,7 @@ function App() {
         <>
             <Intro />
             <Experiences />
+            <Education />
             <Projects />
             <Services />
             <Contacts />
