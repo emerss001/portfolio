@@ -5,7 +5,7 @@ const Intro = () => {
         <div className="mb-8 mt-8 relative flex justify-center elative bg-cover bg-center bg-fixed bg-[url(/Background_Intro.webp)] big:h-screen">
             {/* <div className="h-screen relative bg-cover bg-center bg-fixed  items-center justify-center flex flex-col"> */}
             <div className="z-10 flex flex-col items-center justify-center">
-                <img src="Avatar.png" className="h-20 w-20 2xl:w-24 2xl:h-24" />
+                <img src="Avatar.webp" className="h-20 w-20 2xl:w-24 2xl:h-24" />
                 <div className="text-center mt-8 w-[90%] sm:w-[80%] lg:w-[60%] xl:w-[48%]">
                     <p className="text-base text-gray-400 font-Inconsolata font-normal mb-2 sm:text-base">
                         Hello World! Meu nome é <span className="text-red-400">Emerson Neves</span> e sou

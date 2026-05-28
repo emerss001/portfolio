@@ -13,7 +13,7 @@ export function Education() {
                     course="Análise e Desenvolvimento de Sistemas"
                     level="Ensino Superior - Tecnólogo"
                     description="Formação focada no projeto, implementação e manutenção de sistemas de software, abrangendo desde o levantamento de requisitos e metodologias ágeis até a criação de arquiteturas escaláveis, desenvolvimento full stack e banco de dados."
-                    logoUrl="/imgs/if-logo.jpg"
+                    logoUrl="/imgs/if-logo.webp"
                 />
 
                 <CardEducation
@@ -22,7 +22,7 @@ export function Education() {
                     course="Técnico em Informática para Internet"
                     level="Ensino Técnico"
                     description="Curso com foco no desenvolvimento de aplicações web, englobando fundamentos de programação, estruturação e estilização de interfaces, lógica computacional e manutenção de sistemas para a internet."
-                    logoUrl="/imgs/if-logo.jpg"
+                    logoUrl="/imgs/if-logo.webp"
                 />
             </div>
         </div>

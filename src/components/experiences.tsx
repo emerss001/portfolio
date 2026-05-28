@@ -15,13 +15,13 @@ export function Experiences() {
                     system="Sistema RH"
                     description="Desenvolvimento de uma solução Full Stack para gestão de Recursos Humanos, focada na digitalização de processos internos. Utilizando React e Node.js (Express), foi criada uma plataforma para administração de hierarquias (supervisores e funcionários) e implementei um fluxo de onboarding automatizado, permitindo o auto-cadastro de colaboradores via links seguros, reduzindo a carga operacional do RH."
                     images={[
-                        "/experiences/system-rh/image-1.png",
-                        "/experiences/system-rh/image-5.png",
-                        "/experiences/system-rh/image-7.png",
-                        "/experiences/system-rh/image-2.png",
-                        "/experiences/system-rh/image-3.png",
-                        "/experiences/system-rh/image-4.png",
-                        "/experiences/system-rh/image-6.png",
+                        "/experiences/system-rh/image-1.webp",
+                        "/experiences/system-rh/image-5.webp",
+                        "/experiences/system-rh/image-7.webp",
+                        "/experiences/system-rh/image-2.webp",
+                        "/experiences/system-rh/image-3.webp",
+                        "/experiences/system-rh/image-4.webp",
+                        "/experiences/system-rh/image-6.webp",
                     ]}
                     stacks={["React", "Vite", "Express", "MySql", "Docker", "tailwindcss", "TanStack Query"]}
                 />

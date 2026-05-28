@@ -10,7 +10,7 @@ const Projects = () => {
                 <CardProject
                     title={"Barber Top"}
                     description={"Plataforma de agendamento de serviços de barbearia."}
-                    imageSrc={"BarberTop.png"}
+                    imageSrc={"BarberTop.webp"}
                     projectDaddle={{
                         gitHubUrl: "https://github.com/emerss001/barber-top",
                         siteUrl: "https://barber-top-eight.vercel.app/",
@@ -21,7 +21,7 @@ const Projects = () => {
                 <CardProject
                     title={"FSW Foods"}
                     description={"Aplicativo de delivery de comida inspirado no iFood."}
-                    imageSrc={"FSWFoods.png"}
+                    imageSrc={"FSWFoods.webp"}
                     projectDaddle={{
                         gitHubUrl: "https://github.com/emerss001/fws-foods",
                         siteUrl: "https://fws-foods.vercel.app/",
@@ -32,7 +32,7 @@ const Projects = () => {
                 <CardProject
                     title={"In.Orbit"}
                     description={"Plataforma desktop para registro de metas com progresso semanal."}
-                    imageSrc={"inOrbit.png"}
+                    imageSrc={"inOrbit.webp"}
                     projectDaddle={{
                         gitHubUrl: "https://github.com/emerss001/In.Orbit",
                         siteUrl: "https://in-orbit-iota.vercel.app/",
@@ -45,7 +45,7 @@ const Projects = () => {
                     description={
                         "Aplicativo para controle financeiro com plano de assinatura e inteligência artificial."
                     }
-                    imageSrc={"ExpensesAi.png"}
+                    imageSrc={"ExpensesAi.webp"}
                     projectDaddle={{
                         gitHubUrl: "https://github.com/emerss001/expenses-aI",
                         siteUrl: "",
@@ -56,7 +56,7 @@ const Projects = () => {
                 <CardProject
                     title={"Plann.er"}
                     description={"App para montar planos de viagem com amigos, registrar atividades e links úteis."}
-                    imageSrc={"Planner.png"}
+                    imageSrc={"Planner.webp"}
                     projectDaddle={{
                         gitHubUrl: "https://github.com/emerss001/Plann.er",
                         siteUrl: "",
@@ -67,7 +67,7 @@ const Projects = () => {
                 <CardProject
                     title={"LobãoCare"}
                     description={"Website para um petshop com sistema de agendamento e loja virtual."}
-                    imageSrc={"Lobao.png"}
+                    imageSrc={"Lobao.webp"}
                     projectDaddle={{
                         gitHubUrl: "https://github.com/emerss001/LobaoCare",
                         siteUrl: "http://lobaocare.shop/",
@@ -80,7 +80,7 @@ const Projects = () => {
                     description={
                         "Plataforma de catalogação de materiais com acessibilidade para pessoas com deficiência."
                     }
-                    imageSrc={"acervo.png"}
+                    imageSrc={"acervo.webp"}
                     projectDaddle={{
                         gitHubUrl: "https://github.com/emerss001/api-bibliotech",
                         siteUrl: "https://bibliotech-indol.vercel.app/",
