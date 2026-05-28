@@ -15,6 +15,7 @@ export function CardEducation({ date, institution, course, level, description, l
                     <img
                         src={logoUrl}
                         alt={`Logo ${institution}`}
+                        loading="lazy"
                         className="h-22 w-22 rounded-md object-contain bg-white flex-shrink-0"
                     />
                 )}

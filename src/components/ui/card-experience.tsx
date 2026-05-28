@@ -40,6 +40,7 @@ export function CardExperience({
                                     key={index}
                                     src={imgSrc}
                                     alt={`Evidência do projeto ${index + 1}`}
+                                    loading="lazy"
                                     className="h-48 w-[320px] flex-shrink-0 rounded-lg object-cover transition-transform duration-300 hover:scale-[1.01] border border-zinc-700 md:h-64 md:w-[450px]"
                                 />
                             ))}
