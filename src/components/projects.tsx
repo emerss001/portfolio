@@ -30,6 +30,17 @@ const Projects = () => {
                 />
 
                 <CardProject
+                    title={"Pipoqueiros FC"}
+                    description={"Aplicativo móvel de bolão do camepeonato brasileiro de futebol."}
+                    imageSrc={"pipoqueiros.webp"}
+                    projectDaddle={{
+                        gitHubUrl: "https://github.com/hcxavier/pipoqueiros-fc/tree/mobile",
+                        siteUrl: "",
+                        ok: false,
+                    }}
+                />
+
+                <CardProject
                     title={"FSW Foods"}
                     description={"Aplicativo de delivery de comida inspirado no iFood."}
                     imageSrc={"FSWFoods.webp"}
