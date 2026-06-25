@@ -8,6 +8,17 @@ const Projects = () => {
 
             <div className="grid grid-cols-1 gap-4 big:grid-cols-2 lg:grid-cols-3">
                 <CardProject
+                    title={"My Money"}
+                    description={"Aplicativo móvel para gerenciamento de finanças."}
+                    imageSrc={"MyMoney.webp"}
+                    projectDaddle={{
+                        gitHubUrl: "https://github.com/emerss001/my-money",
+                        siteUrl: "",
+                        ok: false,
+                    }}
+                />
+
+                <CardProject
                     title={"Barber Top"}
                     description={"Plataforma de agendamento de serviços de barbearia."}
                     imageSrc={"BarberTop.webp"}
@@ -70,8 +81,8 @@ const Projects = () => {
                     imageSrc={"Lobao.webp"}
                     projectDaddle={{
                         gitHubUrl: "https://github.com/emerss001/LobaoCare",
-                        siteUrl: "http://lobaocare.shop/",
-                        ok: true,
+                        siteUrl: "",
+                        ok: false,
                     }}
                 />
 
